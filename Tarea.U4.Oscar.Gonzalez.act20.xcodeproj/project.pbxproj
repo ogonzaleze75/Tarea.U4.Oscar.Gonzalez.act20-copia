@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		558895921C6425B9003F8100 /* Vendedor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558895911C6425B9003F8100 /* Vendedor.swift */; };
 		55BF73C01C63A79D006933C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BF73BF1C63A79D006933C6 /* AppDelegate.swift */; };
 		55BF73C21C63A79D006933C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BF73C11C63A79D006933C6 /* ViewController.swift */; };
 		55BF73C51C63A79D006933C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55BF73C31C63A79D006933C6 /* Main.storyboard */; };
@@ -14,6 +15,7 @@
 		55BF73CA1C63A79D006933C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55BF73C81C63A79D006933C6 /* LaunchScreen.storyboard */; };
 		55BF73D51C63A79D006933C6 /* Tarea_U4_Oscar_Gonzalez_act20Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BF73D41C63A79D006933C6 /* Tarea_U4_Oscar_Gonzalez_act20Tests.swift */; };
 		55BF73E01C63A79D006933C6 /* Tarea_U4_Oscar_Gonzalez_act20UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BF73DF1C63A79D006933C6 /* Tarea_U4_Oscar_Gonzalez_act20UITests.swift */; };
+		55BF73EE1C63A7AC006933C6 /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55BF73ED1C63A7AC006933C6 /* LocalAuthentication.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		558895911C6425B9003F8100 /* Vendedor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vendedor.swift; sourceTree = "<group>"; };
 		55BF73BC1C63A79D006933C6 /* Tarea.U4.Oscar.Gonzalez.act20.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tarea.U4.Oscar.Gonzalez.act20.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55BF73BF1C63A79D006933C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55BF73C11C63A79D006933C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +50,7 @@
 		55BF73DB1C63A79D006933C6 /* Tarea.U4.Oscar.Gonzalez.act20UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tarea.U4.Oscar.Gonzalez.act20UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		55BF73DF1C63A79D006933C6 /* Tarea_U4_Oscar_Gonzalez_act20UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tarea_U4_Oscar_Gonzalez_act20UITests.swift; sourceTree = "<group>"; };
 		55BF73E11C63A79D006933C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55BF73ED1C63A7AC006933C6 /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55BF73EE1C63A7AC006933C6 /* LocalAuthentication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +82,7 @@
 		55BF73B31C63A79D006933C6 = {
 			isa = PBXGroup;
 			children = (
+				55BF73ED1C63A7AC006933C6 /* LocalAuthentication.framework */,
 				55BF73BE1C63A79D006933C6 /* Tarea.U4.Oscar.Gonzalez.act20 */,
 				55BF73D31C63A79D006933C6 /* Tarea.U4.Oscar.Gonzalez.act20Tests */,
 				55BF73DE1C63A79D006933C6 /* Tarea.U4.Oscar.Gonzalez.act20UITests */,
@@ -103,6 +109,7 @@
 				55BF73C61C63A79D006933C6 /* Assets.xcassets */,
 				55BF73C81C63A79D006933C6 /* LaunchScreen.storyboard */,
 				55BF73CB1C63A79D006933C6 /* Info.plist */,
+				558895911C6425B9003F8100 /* Vendedor.swift */,
 			);
 			path = Tarea.U4.Oscar.Gonzalez.act20;
 			sourceTree = "<group>";
@@ -257,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55BF73C21C63A79D006933C6 /* ViewController.swift in Sources */,
+				558895921C6425B9003F8100 /* Vendedor.swift in Sources */,
 				55BF73C01C63A79D006933C6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +492,7 @@
 				55BF73E61C63A79D006933C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55BF73E71C63A79D006933C6 /* Build configuration list for PBXNativeTarget "Tarea.U4.Oscar.Gonzalez.act20Tests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +501,7 @@
 				55BF73E91C63A79D006933C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55BF73EA1C63A79D006933C6 /* Build configuration list for PBXNativeTarget "Tarea.U4.Oscar.Gonzalez.act20UITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +510,7 @@
 				55BF73EC1C63A79D006933C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
